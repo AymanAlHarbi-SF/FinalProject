@@ -1,0 +1,319 @@
+
+
+
+
+body {
+    font: 400 15px Montserrat, Lato, sans-serif;
+
+}
+
+h3 {
+    text-align: center;
+    margin: 10px
+}
+
+/* start CSS for navbar */
+
+.navbar-custom {
+    background-color: #1083C6;
+
+}
+
+/* change the brand and text color */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+    font-weight: bold
+}
+
+/* change the link color */
+
+.navbar-custom .navbar-nav .nav-link {
+
+    color: #fff;
+
+    font-weight: bold
+}
+
+
+/* change the color of active or hovered links */
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+
+    color: #16864A;
+
+}
+
+.dropdown-menu {
+    background-color: #1083C6;
+}
+.dropdown-meun a{
+    background-color: #1083C6;
+
+}
+.dropdown-meun>li>a {
+    color: #fff;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1278b3; 
+}
+.add_to_cart * {
+    color: #fff;
+    padding: 10px;
+}
+
+.add_to_cart a:hover {
+    text-decoration: none;
+    color: #16b64a;
+}
+/* End  CSS for nav bar*/
+
+/* Start CSS for section1 */
+
+.section1 {
+    margin-top: 115px;
+}
+
+ul#product_header_slide li img {
+
+    height: auto;
+    max-width: 100%;
+    display: black;
+}
+
+.lSSlideOuter .lSPager.lpg > li:hover a,.lSSlideOuter .lSpager.lSpg > li a{
+    background-color: #cccccc;
+}
+.lSSlideOuter .lSPager.l5pg >li.active a {
+    background-color: #008bff;
+}
+ul.lSPager.l5pg {
+    margin-top: -27px |important;
+}
+
+.lSSlideOuter .lSPager.l5pg > li a {
+    height: 12px;
+    width: 12px;
+}
+
+/* End CSS for section1 */
+
+/* Start CSS for section2 */
+.main_heading {
+    background: #ffffff;
+    display: inline-block;
+    width: 100%;
+    color: #1f2343;
+    padding: 0px 25px;
+}
+ul#topproduct_slide img {
+    width: 100%;    
+}
+
+.topproduct_slide_section {
+    width: 90%;
+    margin: 25px auto;
+    background: #f1f1f1;
+}
+.section2 {
+    background: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+}
+
+.main_heading h3 {
+    font-weight: 700;
+}
+
+#topproduct_slide li {
+    text-align: center;
+    background: #ffffff;
+    cursor: pointer;
+}
+#topprodcut_slide li>div {
+    width: calc(100% - 30px);
+    margin: 10px auto;
+}
+#topproduct_slide li label {
+    color: #29372c;
+    font-size: 100%;
+    margin: 10px;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+#topproduct_slide li label del {
+    color: #57565b;
+}
+/* End CSS for section2 */
+
+/* Start CSS for section3 */
+.section3, .section3 .main_heading {
+    background: #fafafa;
+    color: #1f2343;
+}
+
+.section3 .select_menu ul {
+    margin: auto;
+    background: #ffffff;
+}
+
+.section3 .select_menu ul li {
+    width: 20%;
+    margin: auto -5px auto auto;
+    text-align: center;
+    font-size: 100%;
+   
+    line-height: 1em;
+    background: #ffffff;
+    vertical-align: middle;
+   
+    padding: 16px;
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    max-height: 50px;
+}
+
+.section3 .section_menu ul li.active, .section3 .section_menu ul li:hover {
+    background: #f76f6f;
+    color: #fff;
+}
+.section3 .select_menu ul li.active {
+    overflow: visible;
+}
+.section3 .select_menu {
+    margin: 30px auto;
+     box-shadow: 1px 1px 10px #f6f6f6;
+}
+.section3 .select_menu ul li::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: #f76f6f transparent transparent transparent;
+}
+
+.items_menus li * {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 1em;
+    word-wrap: break-word;
+}
+
+.items_menus>li>div {
+    border: 1px solid #efefef;
+    padding: 10px;
+    background: #fff;
+    width: 200;
+    margin: auto;
+}
+.items_menus>li>div>div>img {
+    max-width: 100px;
+    margin: auto;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+.items_menus>li>div>div {
+ width: 130px;
+ margin: auto;
+ height: 130px;
+ position: relative;
+}
+.items_menus>li>div span {
+    color: #f76f6f;
+    font-size: 30px;
+    line-height: 1em;
+    margin: 10px auto 5px;
+}
+.items_menus>li {
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.item_selectmenu .items_menus {
+    display: none;
+}
+.items_selectmenu .items_menus.active {
+    display: black;
+}
+#projects li{
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 23.5%; 
+}
+#projects li:nth-child(4n) {      /* nth-child(4n) لعمل مسافة*/
+ margin-right: 0;   
+}
+#projects li img {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    /* End CSS for section3 */
+
+
+
+     /* start CSS for footer */
+
+footer {
+    display: inline-block;
+    background: #1c4e7f;
+    width: 100%
+    color: #fff;
+   padding: 30px;
+  margin-bottom: -5px;
+}
+
+footer p {
+
+    margin: auto;
+    text-align: left;
+}
+
+footer ul {
+    list-style: none;
+    padding: 30px;
+    margin: 10px;
+    text-align: right;
+}
+
+footer ul li {
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+    height: 25;
+    background-image: src="images/social.png";
+    background-size: cover;
+    margin: auto 5px;
+}
+
+li.fb_icon {
+    background-position: 118px 0;
+}
+
+li.tw_icon {
+    background-position: 35px 0;
+}
+li.gp_icon {
+    background-position: 90px 0;
+}
+     /* End CSS for footer */
